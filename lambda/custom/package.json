@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/acorbin3/Baby-Words---Alexa-Skill#readme",
   "dependencies": {
-    "amazon-date-parser": "^0.2.0",
     "ask-sdk": "^2.0.0"
   }
 }
