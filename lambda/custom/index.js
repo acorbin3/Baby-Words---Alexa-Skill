@@ -27,7 +27,15 @@ const SEN  = 2
 //[Baby word, description, sentence]
 const babyInfo = [
   ["banana.", "A banana is yellow fruit that grows on a tree.", "The monkey climbed the tree to pick the banana for lunch."],
-  ["banana", "A yellow fruit that grows on a tree", "The monkey climbed the tree to pick the banana for lunch."]
+  ["rain.", "Rain is water falling from the sky.", "It rained during the football game."],
+  ["Ice cream.","Ice cream is a frozen treat usually eaten after dinner.","We went out for ice cream after the movie."],
+  ["Milk.","Milk  is a white liquid nutrient-rich food.","The baby likes to drink milk for a snack."],
+  ["Shoe.","A Shoe is item that is put on a foot to protect and used for traction.","Put on your shoes before you go outside."],
+  ["Sock.","A sock is a cloth that goes on your foot before you put on shoes.","The stocks kept the babys feet warm during the winter."],
+  ["Hat.","A hat is a devices that goes on your head to protect from the sun.","The baseball player wears his hat during the game."],
+  ["Star.","A star is a planet far way in the sky.","The baby points at the star in the sky."],
+  ["Dog.","A dog is an animal that walks on 4 legs that goes woof.","The dog says hello to the baby when they lick."],
+  ["Book.","A Book has pages with pictures and words.","We read a book before bed."],
 ]
 
 async function saveAttributes(attributesManager){
