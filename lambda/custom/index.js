@@ -38,7 +38,6 @@ function getBabyResponse(sessionAttributes, attributesManager, responseBuilder){
   
   if(!sessionAttributes.birthdateStored){
     const i = Math.floor(Math.random() * babyInfo.length)
-    console.log(babyInfo + " i" + i)
     const speechOutput = "Baby word of the day is " + babyInfo[i][WORD] + " The description is, " + babyInfo[i][DESC] + " Here is how you use it in a sentence " + babyInfo[i][SEN]     
     sessionAttributes.wordsPlayed += 1
     attributesManager.setPersistentAttributes(sessionAttributes);
@@ -53,9 +52,8 @@ function getBabyResponse(sessionAttributes, attributesManager, responseBuilder){
     sessionAttributes.wordsPlayed += 1
     attributesManager.setPersistentAttributes(sessionAttributes);
     saveAttributes(attributesManager)
-    
+
     const i = Math.floor(Math.random() * babyInfo.length)
-    console.log(babyInfo + " i" + i)
     const speechOutput = "Baby word of the day is " + babyInfo[i][WORD] + " The description is, " + babyInfo[i][DESC] + " Here is how you use it in a sentence " + babyInfo[i][SEN]     
     
     return responseBuilder
@@ -67,7 +65,6 @@ function getBabyResponse(sessionAttributes, attributesManager, responseBuilder){
 
 const LaunchRequest = {
   canHandle(handlerInput) {
-    console.log( "CHecking for LaunchRequest Intent")
     // launch requests as well as any new session, as games are not saved in progress, which makes
     // no one shots a reasonable idea except for help, and the welcome message provides some help.
     return handlerInput.requestEnvelope.session.new || handlerInput.requestEnvelope.request.type === 'LaunchRequest';
@@ -135,7 +132,6 @@ const SessionEndedRequest = {
 
 const HelpIntent = {
   canHandle(handlerInput) {
-    console.log( "CHecking for Help Intent")
     const request = handlerInput.requestEnvelope.request;
 
     return request.type === 'IntentRequest' && request.intent.name === 'AMAZON.HelpIntent';
@@ -153,7 +149,6 @@ const HelpIntent = {
 
 const YesIntent = {
   canHandle(handlerInput) {
-    console.log( "CHecking for Yes Intent")
     const request = handlerInput.requestEnvelope.request;
 
     return request.type === 'IntentRequest' && request.intent.name === 'AMAZON.YesIntent';
@@ -181,7 +176,6 @@ const YesIntent = {
 
 const NoIntent = {
   canHandle(handlerInput) {
-    console.log( "CHecking for No Intent")
     const request = handlerInput.requestEnvelope.request;
 
     return request.type === 'IntentRequest' && request.intent.name === 'AMAZON.NoIntent';
@@ -228,18 +222,15 @@ const UnhandledIntent = {
 const BirthdateEnter = {
   canHandle(handlerInput) {
     const request = handlerInput.requestEnvelope.request;
-    console.log( "CHecking for BirthdayEnter")
     return request.type === 'IntentRequest' && request.intent.name === 'BirthdateEnter'
   },
   async handle(handlerInput){
     const attributesManager = handlerInput.attributesManager;
     const responseBuilder = handlerInput.responseBuilder;
     const sessionAttributes = attributesManager.getSessionAttributes();
-    console.log("Get attributes")
     sessionAttributes.birthdateStored = true
     sessionAttributes.birthdate = handlerInput.requestEnvelope.request.intent.slots.birthdate.value
     sessionAttributes.gameState == "NEW_BABY_WORD"
-    console.log("Updated session attributes & set birthdate")
     attributesManager.setPersistentAttributes(sessionAttributes);
     await attributesManager.savePersistentAttributes();
     
