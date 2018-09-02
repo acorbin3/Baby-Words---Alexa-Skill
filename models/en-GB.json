@@ -1,0 +1,41 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "baby word of the day",
+        "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "BirthdateEnter",
+          "samples": [
+            "{birthdate}",
+            "the birthdate is {birthdate}",
+            "her birthdate is {birthdate}",
+            "his birthdate is {birthdate}"
+          ],
+          "slots": [{
+              "name": "birthdate", "type": "AMAZON.DATE"
+              }]
+        }
+      ]
+    }
+  }
+}

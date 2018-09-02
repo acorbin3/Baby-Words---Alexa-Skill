@@ -1,0 +1,29 @@
+{
+  "name": "ge-tutorial-baby-words",
+  "version": "1.0.0",
+  "description": "Baby word of the day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acorbin3/Baby-Words---Alexa-Skill.git"
+  },
+  "keywords": [
+    "Alexa",
+    "baby",
+    "skill",
+    "education"
+  ],
+  "author": "Adam Corbin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acorbin3/Baby-Words---Alexa-Skill/issues"
+  },
+  "homepage": "https://github.com/acorbin3/Baby-Words---Alexa-Skill#readme",
+  "dependencies": {
+    "amazon-date-parser": "^0.2.0",
+    "ask-sdk": "^2.0.0"
+  }
+}
