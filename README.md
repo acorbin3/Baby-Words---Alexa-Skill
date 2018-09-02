@@ -40,12 +40,12 @@ Once you are ready to push your skill to the cloud, from the command line type "
 If you are using stored attributes to save data between sessions make sure you do the next step:
 Once deployed, additional permissions need to be added to the AWS IAM role being used by the skill since it is persisting data in Amazon DynamoDB.  Navigate to the [AWS IAM console](https://console.aws.amazon.com/iam/home#/roles).
 
-	> _Note: We are adding the full access policy here for convenience.  For a production skill, you should use a more targeted policy restricting access to just the required resources.  Refer to the [DynamoDB documentation](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/access-control-overview.html) for more details._
+> _Note: We are adding the full access policy here for convenience.  For a production skill, you should use a more targeted policy restricting access to just the required resources.  Refer to the [DynamoDB documentation](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/access-control-overview.html) for more details._
 
-	1. Locate the role for your skill (by default, it is named ```ask-lambda-<your skill name>```).
-	1. Click on the role, then click **Attach Policy**.
-	1. Search for **AmazonDynamoDBFullAccess** and click the check box next to it.
-	1. Click **Attach Policy**.
+1. Locate the role for your skill (by default, it is named ```ask-lambda-<your skill name>```).
+1. Click on the role, then click **Attach Policy**.
+1. Search for **AmazonDynamoDBFullAccess** and click the check box next to it.
+1. Click **Attach Policy**.
 
 # Testing your skill
 After you have deployed your skill, you can go do your [Alexa developer console](https://developer.amazon.com/alexa/console/ask), select skill, and then go to the Test tab. Here you can type or speak using a microphone to test you skill. You can also use the ask CLI interface you can do this by using [ask simulate -l en-US -t "Open of baby word of the day"] 
