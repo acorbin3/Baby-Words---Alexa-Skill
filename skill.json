@@ -3,24 +3,24 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "Baby word of the day gives a word, the definiation, and usage in a sentence.",
+          "summary": "Baby word of the day gives a word, the definition, and usage in a sentence.",
           "examplePhrases": [
             "Alexa open baby word of the day",
             "Alexa start baby word of the day",
             "Alexa whats the baby word of the day"
           ],
           "name": "tutorial-ge",
-          "description": "Baby word of the day gives a word, the definiation, and usage in a sentence. You can also give the babys birthday so we can pick the best words based on the baby age."
+          "description": "Baby word of the day gives a word, the definition, and usage in a sentence. You can also give the babys birthday so we can pick the best words based on the baby age."
         },
         "en-GB": {
-          "summary": "Baby word of the day gives a word, the definiation, and usage in a sentence.",
+          "summary": "Baby word of the day gives a word, the definition, and usage in a sentence.",
           "examplePhrases": [
             "Alexa open baby word of the day",
             "Alexa start baby word of the day",
             "Alexa whats the baby word of the day"
           ],
           "name": "tutorial-ge",
-          "description": "Baby word of the day gives a word, the definiation, and usage in a sentence.  You can also give the babys birthday so we can pick the best words based on the baby age."
+          "description": "Baby word of the day gives a word, the definition, and usage in a sentence.  You can also give the babys birthday so we can pick the best words based on the baby age."
         }
       },
       "isAvailableWorldwide": true,
