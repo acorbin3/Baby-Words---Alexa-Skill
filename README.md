@@ -31,7 +31,7 @@ If there is not a predefined slot we can create our own or use AMAZON.LITERAL. O
 * Alexa has basic intents that be used to help build the skill. Examples would be; Help, Yes, No,  
 * Minimum must support LaunchRequest, IntentRequest, SessionEndRequest
 * Intents get define in the code
-* During game play we can create session attributes. These can be used to keep game states
+* During game play we can create session attributes. These can be used to keep game states. This requires the use of DynamoDB from Amazon web services
 * Here is a good link overview of an intent:[Link](https://youtu.be/ymixpC53c-s)
 
 # Deploying your skill
