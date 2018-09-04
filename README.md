@@ -15,9 +15,9 @@ This is a tutorial on how to create a simple Alexa
 5. Sign up with Amazon web services account: [Link](https://portal.aws.amazon.com/billing/signup?nc2=h_ct&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start)
 6. Sign up for an Amazon developer account: [Link](https://www.amazon.com/ap/register?openid.pape.max_auth_age=1&openid.return_to=https%3A%2F%2Fdeveloper.amazon.com%2Fap_login%2F68747470733A2F2F646576656C6F7065722E616D617A6F6E2E636F6D2F686F6D652E68746D6C.html&prevRID=HF6T96GCBJW1BYHNRNMH&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=mas_dev_portal&openid.mode=checkid_setup&prepopulatedLoginId=&failedSignInCount=0&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_developer_portal&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0)
 7. Set proxies by typing: 
-  1. "npm config https_proxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80"
-  1. "npm config proxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80"
-  1. "npm config https-proxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80"
+  - "npm config https_proxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80"
+  - "npm config proxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80"
+  - "npm config https-proxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80"
 7. Install Amazon web command from console "npm install -g ask-cli"
 8. Tutorial on setting up credentials for AWS: [Link](https://developer.amazon.com/docs/smapi/set-up-credentials-for-an-amazon-web-services-account.html)
 9. Initialize the Amazon command line  "ask init" Here is where we will take the Access key and Secret key from step 5. This allows us to deploy to the lambda functions from the CLI
