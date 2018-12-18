@@ -18,6 +18,7 @@ This is a tutorial on how to create a simple Alexa
   - [npm config set https_proxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80]
   - [npm config set proxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80]
   - [npm config set https-proxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80]
+  - [npm config set python "c:\Python\27\python.exe"]
 1. Install windows distro packages [npm install -g --production windows-build-tools]  
 1. Install Amazon web command from console "npm install -g ask-cli"
 1. Tutorial on setting up credentials for AWS: [Link](https://developer.amazon.com/docs/smapi/set-up-credentials-for-an-amazon-web-services-account.html)
