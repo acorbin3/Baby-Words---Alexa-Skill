@@ -3,7 +3,6 @@ This is a tutorial on how to create a simple Alexa
 
 #Pre-Requests
 * Node.js (> v4.3)
-* Python 2.7 installed
 * Register for an AWS Account
 * Register for an Amazon Developer Account
 * Install and Setup [ASK CLI](https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-kit-command-line-interface.html)
