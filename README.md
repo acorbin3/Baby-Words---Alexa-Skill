@@ -1,7 +1,7 @@
 # Baby Word of the Day - Alexa Skill
-This is a tutorial on how to create a simple Alexa 
+This is a tutorial on how to create a simple Alexa using ASK CLI
 
-#Pre-Requests
+# Pre-Requests
 * Node.js (> v4.3)
 * Register for an AWS Account
 * Register for an Amazon Developer Account
