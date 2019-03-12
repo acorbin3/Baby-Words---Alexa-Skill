@@ -28,8 +28,8 @@ If there is not a predefined slot we can create our own or use AMAZON.LITERAL. O
 Quick video going over a skill [Link](https://youtu.be/1pvR4aqwGhg)
 
 ## Backend code
-This is where all the custom logic(magic) happens. When starting a project from scratch the Alexa Developer Console will allow you to host the source code on AWS and edit the code within the editor which is super convient. Starting with a template all of the basic code for the minimum Built-In Intents but any extra Intents need to be added in manually. Basically its a simple object the contains a evaluation to verify the requested intent is for this particular intent and handler function that would be run for that particular intent. ![custom intent](https://puu.sh/CYLzI/23ac61527a.png)
-<br>Once thats defined it just needs to be added into the list of handlers that usualy lives at the bottom of the code. ![Installing handler](https://puu.sh/CYLyb/9ca823c8a9.png)
+This is where all the custom logic(magic) happens. When starting a project from scratch the Alexa Developer Console will allow you to host the source code on AWS and edit the code within the editor which is super convient. Starting with a template all of the basic code for the minimum Built-In Intents but any extra Intents need to be added in manually. Basically its a simple object the contains a evaluation to verify the requested intent is for this particular intent and handler function that would be run for that particular intent. <br>![custom intent](https://puu.sh/CYLzI/23ac61527a.png)
+<br>Once thats defined it just needs to be added into the list of handlers that usualy lives at the bottom of the code. <br>![Installing handler](https://puu.sh/CYLyb/9ca823c8a9.png)
 
 # Test Hello World
 At this point we are ready to test hello world
