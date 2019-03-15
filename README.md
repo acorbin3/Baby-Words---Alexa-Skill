@@ -4,6 +4,7 @@ This is a tutorial on how to create a simple Alexa using all within the web brow
 # Pre-Requests
 * Register for an AWS Account
 * Register for an Amazon Developer Account
+* We will use JavaScript, it will be helpful to know but not required
 
 # Breaking down components to an Alexa skill
 An alexa skill is made up of the following components:
