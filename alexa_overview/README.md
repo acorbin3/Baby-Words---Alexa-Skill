@@ -25,3 +25,4 @@
 1. Connect to Nest or smart Thermostats
 1. Linking Google Calendar, Apple Calendar, and Microsoft Calendar - so you can add events, look them up, and get reminders about upcoming appointments.
 1. TODO lists - Todoist
+1. Stop OK confirmation - Settings > Alexa Voice Responses and toggling on Brief Mode. 
