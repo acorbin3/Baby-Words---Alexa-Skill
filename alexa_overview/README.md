@@ -27,3 +27,6 @@
 1. Linking Google Calendar, Apple Calendar, and Microsoft Calendar - so you can add events, look them up, and get reminders about upcoming appointments.
 1. TODO lists - Todoist
 1. Stop OK confirmation - Settings > Alexa Voice Responses and toggling on Brief Mode. 
+
+# Fun stuff
+[Amazon silver](https://www.youtube.com/watch?v=YvT_gqs5ETk)
