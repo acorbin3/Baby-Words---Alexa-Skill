@@ -3,6 +3,7 @@
 1. Change the Wake word -  Alexa, Amazon, Computer or Echo
 1. Connect to external devices like speakers or lights, [coffe machines](https://www.amazon.com/Behmor-Connected-Customizable-Temperature-Compatible/dp/B015PE66T4)
 1. Routines - Multiple actions to 1 command. Example "Good night" that will lock the doors, turn off the lights, lower the thermostat temperature and play your Flash Briefing. 
+1. Follow up mode - Simular to rotunies, just needs to be enabled.
 1. Play music
     1. You can play music using different streaming services like Spotify, amazon music, pandora, Audible, iHeartRadio
     1. Settings > Music & Media > Choose default music services
