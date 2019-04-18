@@ -51,3 +51,4 @@ After you have deployed your skill, you can go do your [Alexa developer console]
 
 # Debugging your skill
 This can be a little tricky to debug your alexa skill since its not obvious to where the console it. In Testing your skill section we talked about feeding input into your app and there is a small amount of return info but probably not enough. The easiest way I found is to drop console.log's into your code, run the simulator, and then read the logs after it has been tested. You can find the logs on [Amazon Web Services CloudWatch](https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logs:)
+or if its Alexa-Beta hosted you can follow the folling instructions:  To access the Amazon Cloudwatch logs for your skill, in the lower left corner of the code editor click the Logs: Amazon CloudWatch link, which opens a limited view of the AWS console and provides access to the logs.
