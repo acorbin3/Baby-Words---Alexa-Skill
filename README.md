@@ -35,7 +35,10 @@ This is where all the custom logic(magic) happens. When starting a project from 
 # Test Hello World
 At this point we are ready to test hello world
 
-# Setup for stored attributes(persistent data) 
+# How to use stored attributes for Alex skills hosted 
+Go to the section " How do I use session persistence in an Alexa-hosted skill?" at this [link](https://developer.amazon.com/docs/hosted-skills/build-a-skill-end-to-end-using-an-alexa-hosted-skill.html)
+
+# Setup for stored attributes(persistent data) for self hosted
 If you are using stored attributes to save data between sessions make sure you do the next step:
 Once deployed, additional permissions need to be added to the AWS IAM role being used by the skill since it is persisting data in Amazon DynamoDB.  Navigate to the [AWS IAM console](https://console.aws.amazon.com/iam/home#/roles).
 
